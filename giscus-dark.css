@@ -105,8 +105,9 @@ main .gsc-reactions-count {
   display: none;
 }
 /* Hide the "powered by giscus" branding. */
+main .gsc-header em,
 main .gsc-left-header > em {
-  display: none;
+  display: none !important;
 }
 /* Comment count as a prominent title, Juejin-style. */
 main .gsc-comments-count {
