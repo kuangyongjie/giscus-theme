@@ -104,6 +104,15 @@ main {
 main .gsc-reactions-count {
   display: none;
 }
+/* Hide the "powered by giscus" branding. */
+main .gsc-left-header > em {
+  display: none;
+}
+/* Comment count as a prominent title, Juejin-style. */
+main .gsc-comments-count {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
 /* Transparent comment box: blend into the page background like the
    newsletter input, instead of the near-black inset color. */
 main .gsc-comment-box-textarea,
